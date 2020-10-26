@@ -1,0 +1,126 @@
+/******footer******/
+.context-dark, .bg-gray-dark, .bg-dark {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-classic a, .footer-classic a:focus, .footer-classic a:active {
+  color: #ffffff;
+}
+.nav-list li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+ 
+  
+}
+
+
+.nav-list li a:hover:before {
+  margin-left: 0;
+  opacity: 1;
+}
+
+ul, ol {
+  list-style: none;
+  padding: 0;
+ 
+}
+
+.social-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 23px;
+  font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
+}
+.social-container .col {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.nav-list li a:before {
+  content: "\f14f";
+  font: 400 21px/1 "Material Design Icons";
+  color: #4d6de6;
+  display: inline-block;
+  vertical-align: baseline;
+  margin-left: -28px;
+  margin-right: 7px;
+  opacity: 0;
+  visibility: hidden;
+  transition: .22s ease;
+}
+.contact-list{
+  color: white;
+}
+/*******newletter**********/
+
+        .newsletter {
+          padding: 10px 0;
+          background: #222;
+          }
+          
+          .newsletter .content {
+          max-width: 650px;
+          height: 100px;
+          margin: 0 auto;
+          text-align: center;
+          position: relative;
+          z-index: 2; }
+          .newsletter .content h2 {
+          color: white;
+          margin-bottom: 20px; }
+          .newsletter .content .form-control {
+          height: 35px;
+          border-color: #ffffff;
+          border-radius:0;
+          }
+          .newsletter .content.form-control:focus {
+          box-shadow: none;
+          border: 2px solid #243c4f;
+          }
+          .newsletter .content .btn {
+          height: 35px; 
+          border-radius:0;
+          background: #243c4f;
+          color: #fff;
+          font-weight:300;
+          }
+          .container{
+            margin-top: 25px;
+            margin-bottom: 25px;
+          }
+          /****body****/
+          body {
+            overflow-x: hidden;
+            overflow-y: scroll; 
+        }
+        /**************flex**********/
+        .flex-container {
+          padding-left: 10px;
+          display: flex;
+          justify-content: space-around;
+          border-color: black;
+          margin: 35px 35px 35px 35px;
+          flex-grow: 4;}
+          .form-dark{
+            width: 100%;
+          }
+
+          .section-title h1 {
+            font-size: 44px;
+            color: #19191a;
+            line-height: 58px;
+            margin-top: 10px;
+        }
+        .icones li {
+          display: inline-block;
+          
+        }
+
+       
+/**************form**********
+        form{
+          opacity: 1;
+        border: solid 3px ;
+        }/
